@@ -1,0 +1,71 @@
+.body{
+  background: url("home.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.home_logo{
+  width: 150px;
+  height: 88px;
+  padding-left: 10px;
+}
+.home_navbar{
+  background-color: #002244;
+}
+#index_anc{
+  color: White;
+}
+#index_anc:hover{
+  color: orange;
+  text-decoration: underline;
+}
+
+label{
+  color: #50C878;
+}
+
+.cardis{
+  top: 70px;
+  position: relative;
+  text-align: center;
+  background-color:	#232b2b;
+  padding: 30px 40px 30px 40px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 5px 10px 18px #888888;
+
+}
+#container{
+  max-width: 600px;
+}
+#formfloat{
+  position: relative;
+  width: 400px;
+  left: 15%;
+  right: 50%;
+}
+@media only screen and (max-width: 650px){
+  .cardis{
+    top: 40px;
+    background-color:	#232b2b;
+    padding: 30px 40px 30px 40px;
+    color: white;
+    border-radius: 20px;
+    transform: scale(0.8);
+  }
+  #container{
+    width: auto;
+  }
+  #tex{
+    font-size: 30px;
+  }
+  #tex1{
+    font-size: 20px;
+  }
+  #formfloat{
+    width: auto;
+    left: auto;
+    right: auto;
+  }
+}
